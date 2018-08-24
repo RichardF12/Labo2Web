@@ -20,7 +20,7 @@
                     <input name="gender" type="radio" required>M 
                     <input name="gender" type="radio" required>F
                     <br>
-                    <label>Contact Number: </label> <input type="tel" minlength="8" maxlength="8" required>
+                    <label>Contact Number: </label> <input type="tel" pattern="[0-9]{4}[-][0-9]{4}" minlength="9" maxlength="9" required>
                     <label>Birthdate: </label> <input type="date" placeholder="mm/dd/yyyy" min="2000-01-01" max="2018-12-31" required>
                     <label>Civil Status </label> 
                     <select>
